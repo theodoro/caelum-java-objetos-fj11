@@ -17,6 +17,11 @@ public class Conta {
     double saldo;
     double limite;
     
+    public void saca(double valor){
+        double novoSaldo = this.saldo - valor;
+        this.saldo = novoSaldo;
+    }
+    
     
     
 }
