@@ -22,6 +22,15 @@ public class Conta {
         this.saldo = novoSaldo;
     }
     
+    public boolean sacaNovo(double valor){
+        if(this.saldo < valor){
+            System.out.println("Saldo insuficiente: " + this.saldo);
+            return false;
+        }else{
+            System.out.println("Saque realizado com sucesso!");
+            return true;
+        }
+    }
     public void deposita(double valor){
         double novoValor = this.saldo + valor;
         this.saldo = novoValor;

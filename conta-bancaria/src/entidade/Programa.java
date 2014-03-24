@@ -17,7 +17,7 @@ public class Programa {
         Conta conta = new Conta();
         
         conta.nome = "Bruno Aquino";
-        
+       /* 
         conta.saldo = 0.00;
         System.out.println("Saldo da minha conta: " + conta.saldo);
         System.out.println("Deposito de 1500");
@@ -25,7 +25,15 @@ public class Programa {
         System.out.println("Saque de 500");
         conta.saca(500);
         
-        System.out.println("Novo Saldo :" + conta.saldo);
+        System.out.println("Novo Saldo :" + conta.saldo);*/
+        
+        conta.saldo = 1500;
+        
+       // System.out.println("Saldo da minha conta: " + conta.saldo);
+        
+        conta.sacaNovo(2000);
+        
+    
         
        
     }
