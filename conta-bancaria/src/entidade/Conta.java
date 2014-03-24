@@ -22,6 +22,11 @@ public class Conta {
         this.saldo = novoSaldo;
     }
     
+    public void deposita(double valor){
+        double novoValor = this.saldo + valor;
+        this.saldo = novoValor;
+    }
+    
     
     
 }
