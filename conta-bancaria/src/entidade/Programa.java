@@ -31,8 +31,10 @@ public class Programa {
         
        // System.out.println("Saldo da minha conta: " + conta.saldo);
         
-        conta.sacaNovo(2000);
+        conta.sacaNovo(500);
         
+        Conta c2 = new Conta();
+        conta.tranfere(c2, 3000);
     
         
        

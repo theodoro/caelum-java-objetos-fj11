@@ -28,12 +28,18 @@ public class Conta {
             return false;
         }else{
             System.out.println("Saque realizado com sucesso!");
+            this.saldo -= valor;
             return true;
         }
     }
     public void deposita(double valor){
         double novoValor = this.saldo + valor;
         this.saldo = novoValor;
+    }
+    
+    public boolean tranfere(Conta destino, double valor){
+        boolean retirou = this.sacaNovo(valor);
+        return retirou != false;
     }
     
     
