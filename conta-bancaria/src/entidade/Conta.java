@@ -13,7 +13,7 @@ package entidade;
 public class Conta {
     
     int numero;
-    String nome;
+    Cliente titular;
     double saldo;
     double limite;
     

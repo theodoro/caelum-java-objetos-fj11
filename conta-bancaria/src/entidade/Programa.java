@@ -16,7 +16,14 @@ public class Programa {
         
         Conta conta = new Conta();
         
-        conta.nome = "Bruno Aquino";
+        Cliente cli = new Cliente();
+        
+       conta.titular = cli;
+        
+        
+        
+        conta.titular.nome = "Priscila";
+        System.out.println(conta.titular.nome);
        /* 
         conta.saldo = 0.00;
         System.out.println("Saldo da minha conta: " + conta.saldo);
