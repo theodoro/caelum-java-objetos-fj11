@@ -22,6 +22,8 @@ public class Programa {
         fusca.modelo = "1600";
         fusca.velocidadeAtual = 50;
         fusca.velocidadeMax = 100;
+        fusca.motor.tipo = "AP";
+        fusca.motor.potencia = 1600;
         
         fusca.ligar();
         

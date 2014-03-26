@@ -16,6 +16,7 @@ public class Carro {
    public String modelo;
    public double velocidadeAtual;
    public double velocidadeMax;
+   public Motor motor;
     
     
     public void ligar(){
